@@ -1,186 +1,437 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<title>Shower Presentation Engine</title>
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="node_modules/shower-ribbon/styles/screen-16x10.css">
+  <title>Game of Code Entry: Attain</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="node_modules/shower-material/styles/screen-16x10.css">
 </head>
+
 <body class="shower list">
-	<header class="caption">
-		<h1>Shower Presentation Engine</h1>
-		<p>Yours Truly, Famous Inc.</p>
-	</header>
-	<section class="slide" id="cover">
-		<h2>Shower Presentation Engine</h2>
-		<p>Brought to you by <a href="http://pepelsbey.net">Vadim Makeev</a></p>
-		<img src="pictures/cover.jpg" alt="" class="cover">
-		<!--
-			To apply styles to the certain slides
-			set slide ID to get needed elements
-			-->
-		<style>
-			#cover h2 {
-				margin:30px 0 0;
-				color:#FFF;
-				text-align:center;
-				font-size:70px;
-				}
-			#cover p {
-				margin:10px 0 0;
-				text-align:center;
-				color:#FFF;
-				font-style:italic;
-				font-size:20px;
-				}
-				#cover p a {
-					color:#FFF;
-					}
-		</style>
-	</section>
-	<section class="slide">
-		<h2>Shower key features</h2>
-		<ol>
-			<li>Built on HTML, CSS and vanilla JavaScript</li>
-			<li>Works in all modern browsers</li>
-			<li>Themes are separated from engine</li>
-			<li>Modular and extensible</li>
-			<li>Fully keyboard accessible</li>
-			<li>Printable to PDF</li>
-		</ol>
-		<p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p>
-	</section>
-	<section class="slide">
-		<h2>Plain text on your slides</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>
-	</section>
-	<section class="slide">
-		<h2>Two columns if you like</h2>
-		<p class="double">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-	</section>
-	<section class="slide">
-		<h2>All kind of lists</h2>
-		<ol>
-			<li>Simple lists are marked with bullets</li>
-			<li>Ordered lists begin with a number</li>
-			<li>You can even nest lists one inside another
-				<ul>
-					<li>Or mix their types</li>
-					<li>But do not go too far</li>
-					<li>Otherwise audience will be bored</li>
-				</ul>
-			</li>
-			<li>Look, seven rows exactly!</li>
-		</ol>
-	</section>
-	<section class="slide">
-		<h2>Serious citations</h2>
-		<figure>
-			<blockquote>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-			</blockquote>
-			<figcaption>Marcus Tullius Cicero</figcaption>
-		</figure>
-	</section>
-	<section class="slide">
-		<h2>Code samples</h2>
-		<pre>
-			<code>&lt;!DOCTYPE html&gt;</code>
-			<code class="mark">&lt;html lang="en"&gt;</code>
-			<code><mark>&lt;head&gt;</mark> <mark class="comment">&lt;!--Comment--&gt;</mark></code>
-			<code>    &lt;title&gt;Shower&lt;/title&gt;</code>
-			<code>    &lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
-			<code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
-			<code><mark>&lt;/head&gt;</mark></code>
-		</pre>
-	</section>
-	<section class="slide">
-		<h2>Even tables</h2>
-		<table>
-		<tr>
-			<th scope="col">Locavore</th>
-			<th>Umami</th>
-			<th>Helvetica</th>
-			<th>Vegan</th>
-		</tr>
-		<tr>
-			<th scope="row">Fingerstache</th>
-			<td>Kale</td>
-			<td>Chips</td>
-			<td>Keytar</td>
-		</tr>
-		<tr>
-			<th scope="row">Sriracha</th>
-			<td>Gluten-free</td>
-			<td>Ennui</td>
-			<td>Keffiyeh</td>
-		</tr>
-		<tr>
-			<th scope="row">Thundercats</th>
-			<td>Jean</td>
-			<td>Shorts</td>
-			<td>Biodiesel</td>
-		</tr>
-		<tr>
-			<th scope="row">Terry</th>
-			<td>Richardson</td>
-			<td>Swag</td>
-			<td>Blog</td>
-		</tr>
-		</table>
-		<p>It’s good to have information organized.</p>
-	</section>
-	<section class="slide" id="picture">
-		<h2>Pictures</h2>
-		<img src="pictures/picture.jpg" alt="" class="cover">
-		<style>
-			#picture h2 {
-				color:#FFF;
-				}
-		</style>
-	</section>
-	<section class="slide">
-		<h2 class="shout shrink">You can even shout this way</h2>
-	</section>
-	<section class="slide">
-		<h2>Inner navigation</h2>
-		<ol>
-			<li>Lets you reveal list items one by one</li>
-			<li class="next">To keep some key points</li>
-			<li class="next">In secret from audience</li>
-			<li class="next">But it will work only once</li>
-			<li class="next">Nobody wants to see the same joke twice</li>
-		</ol>
-	</section>
-	<section class="slide grid">
-		<h2>All nicely aligned to grid</h2>
-	</section>
-	<section class="slide" id="see-more">
-		<h2 class="shout">
-			<img src="pictures/logo.svg" alt="Shower logo">
-			<a href="https://github.com/shower/shower">See more on GitHub</a>
-		</h2>
-		<style>
-			#see-more h2 {
-				font-size:100px
-				}
-			#see-more img {
-				width:0.72em;
-				height:0.72em;
-				}
-		</style>
-	</section>
-	<p class="badge">
-		<a href="https://github.com/shower/shower">Fork me on GitHub</a>
-	</p>
-	<!--
-		To hide progress bar from entire presentation
-		just remove “progress” element.
-		-->
-	<div class="progress"></div>
-	<script src="node_modules/shower-core/shower.min.js"></script>
-	<!-- Copyright © 2015 Yours Truly, Famous Inc. -->
-	<!-- Photos by John Carey, fiftyfootshadows.net -->
+  <header class="caption">
+    <h1>Game of Code Entry: Attain</h1>
+    <p>github.com/elliottbrooks</p>
+  </header>
+  <section class="slide" id="cover">
+    <h3>Game of Code 2016</h3>
+    <h2>Proposal: Attain</h2>
+    <p>Presented by <a href="http://ell.io.tt/">Elliott Brooks</a></p>
+    <img src="pictures/cover.png" alt="" class="cover">
+    <!--
+      To apply styles to the certain slides
+      set slide ID to get needed elements
+      -->
+    <style>
+    .slide {
+      padding: 32px;
+    }
+    
+    .slide:after {
+      display: none;
+    }
+    
+    .progress {
+      background: #5544C3;
+    }
+    
+    .slide a,
+    .slide h2,
+    .slide em,
+    .slide .goal {
+      color: #5544C3;
+    }
+    
+    .slide .metric {
+      color: #44C3B7;
+    }
+    
+    .slide ul li,
+    .slide ol li {
+      text-indent: -1em;
+    }
+    
+    #cover h2 {
+      margin: 0;
+      font-size: 48px;
+      width: 30%;
+      color: #000;
+    }
+    
+    #cover h3 {
+      margin: 250px 0 0;
+      font-size: 24px;
+      color: #5544C3;
+      text-transform: uppercase;
+    }
+    
+    #cover p {
+      margin: 140px 0 0;
+      font-size: 20px;
+    }
+    </style>
+  </section>
+  <section class="slide" id="problem">
+    <h2>The Problem</h2>
+    <ul>
+      <li>Many existing applications attempt to present users with a view of their progress:
+        <ul>
+          <li>by tracking <em>metrics</em> like weight</li>
+          <li>by tracking <em>behaviours</em> like exercise</li>
+          <li>by tracking <em>other factors</em> like user nutrition</li>
+        </ul>
+      </li>
+    </ul>
+    <br/>
+    <ul>
+      <li>Many of them fail to consider:
+        <ul>
+          <li>Goals vary from user to user: in <em>type</em>, in <em>length</em>, in <em>magnitude</em></li>
+          <li>Users usually wish to persue multiple goals</li>
+        </ul>
+      </li>
+    </ul>
+    <img src="pictures/goals.png" class="cover" />
+  </section>
+  <section class="slide" id="scrolling">
+    <div class="text">
+      <h2>The Solution?</h2>
+      <p class="quote">Create a framework where users can create, monitor, and ATTAIN their own goals.</p>
+    </div>
+    <ul class="goals">
+      <li>Lose Weight</li>
+      <li>Eat Better</li>
+      <li>Revise More</li>
+      <li>Drink More Water</li>
+      <li>Eat Out Less</li>
+      <li>Spend Less on Clothes</li>
+      <li>Spend More Time with Friends</li>
+      <li>Avoid Sugary Foods</li>
+      <li>Floss More Often</li>
+      <li>Exercise Three Times a Week</li>
+      <li>Get Takeaway Food Less Often</li>
+      <li>Get More Regular Sleep</li>
+    </ul>
+    <img src="pictures/purple.png" class="cover" />
+  </section>
+  <style>
+  #scrolling .text {
+    width: 45%;
+  }
+  
+  #scrolling .text h2 {
+    color: #fff;
+  }
+  
+  #scrolling .text p.quote {
+    margin-top: 200px;
+    color: #fff;
+    font-style: italic;
+    border-left: 4px solid #fff;
+    padding-left: 16px;
+  }
+  
+  #scrolling .goals {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 60%;
+    right: 0;
+  }
+  
+  #scrolling .goals li {
+    color: rgba(255, 255, 255, 0.5);
+    top: -10%;
+    position: absolute;
+    animation: wordScroll 5s linear infinite;
+  }
+  
+  #scrolling .goals li:before {
+    display: none;
+  }
+  
+  #scrolling .goals li:nth-child(1) {
+    animation-duration: 10s;
+    animation-delay: 2s;
+    margin-left: 20px;
+  }
+  
+  #scrolling .goals li:nth-child(2) {
+    animation-duration: 9.2s;
+    animation-delay: 1.2s;
+    margin-left: 3px;
+  }
+  
+  #scrolling .goals li:nth-child(3) {
+    animation-duration: 7.1s;
+    animation-delay: 8s;
+    margin-left: 32px;
+  }
+  
+  #scrolling .goals li:nth-child(4) {
+    animation-duration: 11.2s;
+    animation-delay: 4s;
+    margin-left: 12px;
+  }
+  
+  #scrolling .goals li:nth-child(5) {
+    animation-duration: 8.7s;
+    animation-delay: 6s;
+    margin-left: 10px;
+  }
+  
+  #scrolling .goals li:nth-child(6) {
+    animation-duration: 13.1s;
+    animation-delay: 3s;
+    margin-left: 40px;
+  }
+  
+  #scrolling .goals li:nth-child(7) {
+    animation-duration: 19s;
+    animation-delay: 4s;
+  }
+  
+  #scrolling .goals li:nth-child(8) {
+    animation-duration: 10.3s;
+    animation-delay: 9s;
+    margin-left: 11px;
+  }
+  
+  #scrolling .goals li:nth-child(9) {
+    animation-duration: 7.9s;
+    animation-delay: 10s;
+  }
+  
+  #scrolling .goals li:nth-child(10) {
+    animation-duration: 10.1s;
+    animation-delay: 3s;
+    margin-left: 6px;
+  }
+  
+  #scrolling .goals li:nth-child(11) {
+    animation-duration: 9.3s;
+    animation-delay: 4.5s;
+    margin-left: 7px;
+  }
+  
+  #scrolling .goals li:nth-child(12) {
+    animation-duration: 9.5s;
+    animation-delay: 7s;
+    margin-left: 9px;
+  }
+  
+  @keyframes wordScroll {
+    0% {
+      top: -10%;
+    }
+    100% {
+      top: 110%;
+    }
+  }
+  </style>
+  <section class="slide" id="how-it-works">
+    <h2>How it Works</h2>
+    <p>The user chooses a <em class="metric">metric</em> and a <em>goal</em>. Not every goal needs to be tied to a metric, and some metrics can be lagging indicators.</p>
+    <div class="blocks">
+      <div class="block metric">
+        A Metric is a variable that is measured that the user has no <em>direct and immediate</em> control over, for example weight or average grade.
+      </div>
+      <div class="block goal">
+        A Goal is a statement of intention to modify or maintain a set of <em>behaviours</em>, by affecting things that the user <em>does</em> have direct and immediate control over, such as aiming to drink 7 glasses of water per day, or getting 8 hours of sleep a night.
+      </div>
+    </div>
+  </section>
+  <style>
+  #how-it-works .blocks {
+    position: relative;
+  }
+  
+  #how-it-works .blocks .block {
+    color: #fff;
+    font-size: 24px;
+    padding: 16px;
+    width: 48%;
+    position: absolute;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  #how-it-works .blocks .block.metric {
+    left: 0;
+    background: #44C3B7;
+  }
+  
+  #how-it-works .blocks .block.goal {
+    right: 0;
+    background: #5544C3;
+  }
+  
+  #how-it-works .blocks .block em {
+    color: #fff;
+    text-decoration: underline;
+  }
+  </style>
+  <section class="slide" id="measuring-success">
+    <h2>Measuring Success</h2>
+    <p>To combat the <em>information overload</em> associated with tracking multiple behaviours, we present users with a simple and intuitive measure of their current progress - to the minute.</p>
+    <div class="scale-container">
+      <img src="pictures/scale.png" />
+    </div>
+  </section>
+  <style>
+  #measuring-success img {
+    width: 600px;
+    margin: 20px 0 0;
+  }
+  
+  #measuring-success .scale-container {
+    text-align: center;
+  }
+  </style>
+  <section class="slide" id="smartwatch">
+    <img src="pictures/smartwatch.png" class="cover" />
+  </section>
+  <section class="slide" id="graphs">
+    <h2>Users can match <em class="metric">Metrics</em> to their <em>Goals</em></h2>
+    <img src="pictures/graphs.png" class="cover" />
+    <div class="overlay">
+      <img src="pictures/graphs-overlay.png" />
+    </div>
+  </section>
+  <style>
+  #graphs .overlay {
+    position: absolute;
+    top: 323px;
+    left: 432px;
+    width: 156px;
+    height: 125px;
+    overflow: hidden;
+  }
+  
+  #graphs .overlay img {
+    height: 120px;
+    animation: drag 5s cubic-bezier(0.46, 0.03, 0.52, 0.96) infinite;
+  }
+  
+  @keyframes drag {
+    0% {
+      margin-left: -107px;
+    }
+    50% {
+      margin-left: -9px;
+    }
+    100% {
+      margin-left: -107px;
+    }
+  }
+  </style>
+  <section class="slide" id="metrics">
+    <h2 class="metric">Supported Metrics</h2>
+    <div class="box">
+      Any numeric measurement can be added as a metric and tracked over time. Users can be regularly prompted to enter measurements.
+    </div>
+    <h3>Preset Metrics</h3>
+    <ul>
+      <li>Body Weight</li>
+      <li>Body Fat Percentage</li>
+      <li>Body Measurement</li>
+      <li>Grade Average</li>
+    </ul>
+    <h3>Custom Metrics</h3>
+    <ul>
+      <li>Numeric metric, progressive values</li>
+      <li>Average metric, average value over time</li>
+    </ul>
+  </section>
+  <style>
+  #metrics .box {
+    padding: 16px;
+    color: #fff;
+    background: #44C3B7;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    float: right;
+    width: 400px;
+  }
+  </style>
+  <section class="slide" id="goals">
+    <h2>Supported Goals</h2>
+    <div class="box">
+      Nutritional goals share data, and can be inputted through barcode scanning of food and ingredients.
+      <img src="pictures/barcode.jpg" />
+    </div>
+    <h3>Preset Goals</h3>
+    <ul>
+      <li>Food and Nutrition (Calories, Macros)</li>
+      <li>Water Consumption</li>
+      <li>Sleep Duration</li>
+      <li>Activity and Exercise</li>
+    </ul>
+    <h3>Custom Goals</h3>
+    <ul>
+      <li>Frequency Goal (Do something x times a week)</li>
+      <li>Time Management Goal (Spend more/less time a day doing something)</li>
+      <li>Financial Goal</li>
+    </ul>
+  </section>
+  <style>
+  #goals .box {
+    padding: 16px;
+    color: #fff;
+    background: #5544C3;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    float: right;
+    width: 400px;
+  }
+  
+  #goals .box img {
+    margin-top: 20px;
+    width: 100%;
+    border: 2px solid white;
+  }
+  </style>
+  <section class="slide" id="deliverables">
+    <img src="pictures/purple.png" class="cover" />
+    <h2>Prototype Deliverable</h2>
+    <ul>
+      <li>An Android application capable of
+        <ul>
+          <li>Creating a user's goals and metrics</li>
+          <li>Tracking progress against them</li>
+          <li>An emphasis on nutritional goals</li>
+          <li>Aggregating goal progress into a single measure</li>
+          <li>Some graphing output</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+  <style>
+  #deliverables h2,
+  #deliverables li {
+    color: #fff;
+  }
+  </style>
+  <section class="slide" id="future-ideas">
+    <img src="pictures/future.png" class="cover"/>
+    <h2>Future implementation ideas</h2>
+    <ul>
+      <li>Server-side application, capable of
+        <ul>
+          <li>Saving user progress and goals across devices</li>
+          <li>Serving content to the application</li>
+          <li>Suggesting products for users</li>
+        </ul>
+      </li>
+      <li>A companion application for iOS</li>
+      <li>A web interface</li>
+      <li>Social features</li>
+    </ul>
+  </section>
+  <section class="slide" id="thanks">
+    <h2>Thank you</h2>
+    <p>For any questions, please contact <code>hi@ell.io.tt</code></p>
+  </section>
+  <div class="progress"></div>
+  <script src="node_modules/shower-core/shower.min.js"></script>
 </body>
+
 </html>
